@@ -50,8 +50,13 @@ public class UserTest {
 
 		assert testUser.getUsername() == test_username;
 		
-		System.out.println("All Java assertions in the test suite passed (none failed).");
-
+		//TODO 2 - Add the 4 other assertions for each of the 4 fields
+		assert testUser.getPassword() == test_password;
+		assert testUser.getFirst_name() == test_first_name;
+		assert testUser.getLast_name() == test_last_name;
+		assert testUser.getMobile_number() == test_mobile_number;
+		
+		System.out.println("All Java assertions in the test suite passed (none failed)");
 		
 	}
 
